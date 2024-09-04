@@ -28,9 +28,8 @@ header {
 .contact-info p {
     margin: 0;
     font-size: 16px;
-  color: white;
-  
-  }
+    color: white !important; /* Use !important as a last resort */
+}
 
 @media (max-width: 768px) {
     .contact-info p {
