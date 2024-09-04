@@ -28,6 +28,15 @@ header {
 .contact-info p {
     margin: 0;
     font-size: 16px;
+  color: white;
+  
+  }
+
+@media (max-width: 768px) {
+    .contact-info p {
+        color: white;
+    }
+
 }
 
 .product-gallery {
