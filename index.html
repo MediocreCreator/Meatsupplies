@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lee's Meat Supplies</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://th.bing.com/th/id/OIP.parqz7wORBSueI1uvUM_hgAAAA?rs=1&pid=ImgDetMain" alt="Company Logo">
+        </div>
+        <div class="contact-info">
+            <p>Contact Lee: +26481 329 0281</p>
+        </div>
+    </header>
+    <main>
+        <section class="product-gallery">
+            <div class="product-item" onclick="showStock('product1')">
+                <img src="https://th.bing.com/th/id/R.b8b7451f686584865e59e789da9a3717?rik=ZT5b2LeqjuSQew&pid=ImgRaw&r=0" alt="Product 1">
+                <p>Delicious Salami's</p>
+                <p>N$100 p/kg</p>
+                <p class="stock-info" id="product1-stock">Stock: 10</p>
+            </div>
+            <div class="product-item" onclick="showStock('product2')">
+                <img src="https://th.bing.com/th/id/OIP.OTKJgrOhQnMfOkZcqQ7YogHaE8?rs=1&pid=ImgDetMain" alt="Product 2">
+                <p>Beef Mince</p>
+                <p>N$100 p/kg</p>
+                <p class="stock-info" id="product2-stock">Stock: 5</p>
+            </div>
+            <div class="product-item" onclick="showStock('product3')">
+                <img src="https://c8.alamy.com/comp/DCWA42/beef-stew-meat-raw-diced-raw-blade-or-chuck-steak-on-white-background-DCWA42.jpg" alt="Product 3">
+                <p>Stew Meat</p>
+                <p>N$100 p/kg</p>
+                <p class="stock-info" id="product3-stock">Stock: 20</p>
+            </div>
+            <div class="product-item" onclick="showStock('product4')">
+                <img src="https://th.bing.com/th/id/R.6f2a7c27346f3cee9c8e48b3818e93ea?rik=87Bjswf5YWN9oA&pid=ImgRaw&r=0" alt="Product 4">
+                <p>Steaks</p>
+                <p>N$100 p/kg</p>
+                <p class="stock-info" id="product4-stock">Stock: 15</p>
+            </div>
+            <div class="product-item" onclick="showStock('product5')">
+                <img src="https://th.bing.com/th/id/OIP.KjFdwdtttumSbj6SKhy0cAHaKw?rs=1&pid=ImgDetMain" alt="Product 5">
+                <p>T Bones</p>
+                <p>N$100 p/kg</p>
+                <p class="stock-info" id="product5-stock">Stock: 30</p>
+            </div>
+            <div class="product-item" onclick="showStock('product6')">
+                <img src="https://th.bing.com/th/id/OIP.VIEtMiJgXgnp6PVd05KIzQHaE7?rs=1&pid=ImgDetMain" alt="Product 6">
+                <p>Combo</p>
+                <p>N$100 p/kg</p>
+                <p class="stock-info" id="product6-stock">Stock: 8</p>
+            </div>
+            
+            </div>
+            <!-- Add more products as needed -->
+        </section>
+    </main>
+</body>
+</html>
