@@ -22,37 +22,61 @@
                 <img src="https://th.bing.com/th/id/R.b8b7451f686584865e59e789da9a3717?rik=ZT5b2LeqjuSQew&pid=ImgRaw&r=0" alt="Product 1">
                 <p>Delicious Salami's</p>
                 <p>N$100 p/kg</p>
-                <p class="stock-info" id="product1-stock">Stock: 10</p>
+                <div class="stock-container">
+                    <button class="stock-btn" onclick="adjustStock('product1', -1)">-</button>
+                    <input type="text" id="product1-stock" class="stock-input" value="10" readonly>
+                    <button class="stock-btn" onclick="adjustStock('product1', 1)">+</button>
+                </div>
             </div>
             <div class="product-item" onclick="showStock('product2')">
                 <img src="https://th.bing.com/th/id/OIP.OTKJgrOhQnMfOkZcqQ7YogHaE8?rs=1&pid=ImgDetMain" alt="Product 2">
                 <p>Beef Mince</p>
                 <p>N$100 p/kg</p>
-                <p class="stock-info" id="product2-stock">Stock: 5</p>
+                <div class="stock-container">
+                    <button class="stock-btn" onclick="adjustStock('product2', -1)">-</button>
+                    <input type="text" id="product2-stock" class="stock-input" value="5" readonly>
+                    <button class="stock-btn" onclick="adjustStock('product2', 1)">+</button>
+                </div>
             </div>
             <div class="product-item" onclick="showStock('product3')">
                 <img src="https://c8.alamy.com/comp/DCWA42/beef-stew-meat-raw-diced-raw-blade-or-chuck-steak-on-white-background-DCWA42.jpg" alt="Product 3">
                 <p>Stew Meat</p>
                 <p>N$100 p/kg</p>
-                <p class="stock-info" id="product3-stock">Stock: 20</p>
+                <div class="stock-container">
+                    <button class="stock-btn" onclick="adjustStock('product3', -1)">-</button>
+                    <input type="text" id="product3-stock" class="stock-input" value="8" readonly>
+                    <button class="stock-btn" onclick="adjustStock('product3', 1)">+</button>
+                </div>
             </div>
             <div class="product-item" onclick="showStock('product4')">
                 <img src="https://th.bing.com/th/id/R.6f2a7c27346f3cee9c8e48b3818e93ea?rik=87Bjswf5YWN9oA&pid=ImgRaw&r=0" alt="Product 4">
                 <p>Steaks</p>
                 <p>N$100 p/kg</p>
-                <p class="stock-info" id="product4-stock">Stock: 15</p>
+                <div class="stock-container">
+                    <button class="stock-btn" onclick="adjustStock('product4', -1)">-</button>
+                    <input type="text" id="product4-stock" class="stock-input" value="3" readonly>
+                    <button class="stock-btn" onclick="adjustStock('product4', 1)">+</button>
+                </div>
             </div>
             <div class="product-item" onclick="showStock('product5')">
                 <img src="https://th.bing.com/th/id/OIP.KjFdwdtttumSbj6SKhy0cAHaKw?rs=1&pid=ImgDetMain" alt="Product 5">
                 <p>T Bones</p>
                 <p>N$100 p/kg</p>
-                <p class="stock-info" id="product5-stock">Stock: 30</p>
+                <div class="stock-container">
+                    <button class="stock-btn" onclick="adjustStock('product5', -1)">-</button>
+                    <input type="text" id="product5-stock" class="stock-input" value="9" readonly>
+                    <button class="stock-btn" onclick="adjustStock('product5', 1)">+</button>
+                </div>
             </div>
             <div class="product-item" onclick="showStock('product6')">
                 <img src="https://th.bing.com/th/id/OIP.VIEtMiJgXgnp6PVd05KIzQHaE7?rs=1&pid=ImgDetMain" alt="Product 6">
                 <p>Combo</p>
                 <p>N$100 p/kg</p>
-                <p class="stock-info" id="product6-stock">Stock: 8</p>
+                <div class="stock-container">
+                    <button class="stock-btn" onclick="adjustStock('product6', -1)">-</button>
+                    <input type="text" id="product6-stock" class="stock-input" value="6" readonly>
+                    <button class="stock-btn" onclick="adjustStock('product6', 1)">+</button>
+                </div>
             </div>
             
             </div>
